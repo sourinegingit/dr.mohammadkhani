@@ -1,0 +1,6 @@
+{
+  "name": "دکتر علی محمدخانی | متخصص و جراح زیبایی بینی",
+  "description": "سامانه نوبت‌دهی و مشاوره آنلاین جراحی زیبایی بینی دکتر علی محمدخانی (تهران، شریعتی) - گالری قبل و بعد، پیگیری نوبت و ارزیابی آنلاین",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

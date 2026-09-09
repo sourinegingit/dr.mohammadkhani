@@ -1,0 +1,64 @@
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css');
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Vazirmatn', 'Vazir', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-vazir: 'Vazirmatn', 'Vazir', sans-serif;
+}
+
+@layer base {
+  :root {
+    --color-medical-navy: #0B2545;
+    --color-medical-teal: #0D5C75;
+    --color-medical-gold: #C5A880;
+    --color-medical-gold-light: #FBF8F3;
+    --color-medical-slate: #1E293B;
+  }
+
+  html, body {
+    direction: rtl;
+    text-align: right;
+    scroll-behavior: smooth;
+    font-family: 'Vazirmatn', 'Vazir', var(--font-vazirmatn), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+  }
+
+  body {
+    background-color: #FAFCFF;
+    color: #0F172A;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  button, input, select, textarea, optgroup, a, p, span, h1, h2, h3, h4, h5, h6, label, div {
+    font-family: inherit;
+  }
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace !important;
+}
+
+/* Custom scrollbar for medical luxury aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Image comparison slider helper styles */
+.slider-handle {
+  touch-action: none;
+}
